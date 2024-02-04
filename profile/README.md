@@ -17,6 +17,9 @@ Ce projet compile les decklists extraites de MTGTOP8 et fournit des outils pour 
 ### [mtgdc_mlpredictions](https://github.com/barrins-codex/mtgdc_mlpredictions)
 Ce projet se base sur le machine learning pour évaluer les decklists depuis le passage à 20 points de vie. L'algorithme `XGBoost` permet de comparer le nombre de terrains d'une decklists à l'entrainement effectué avec une fiabilité au-dessus de 85%.
 
+### [mtgdc_scrapper](https://github.com/barrins-codex/mtgdc_scrapper)
+Ce projet scrap MTGTOP8 et génère l'ensemble des decklists pour les utiliser dans le module `mtgdc_decklists`.
+
 ## Projets en cours de complétion
 ### [mtgdc_clustering](https://github.com/barrins-codex/mtgdc_clustering)
 L'objectif est de réduire la donnée pour étudier plus rapidement un métagame ou l'ensemble des decklists ayant le même général par exemple. Lié au projet `mtgdc_aggregator`, cela permet de réduire le bruit et d'obtenir des versions significativement différentes d'un même deck par exemple.
